@@ -1,0 +1,49 @@
+.NftCreatorSection {
+  display: flex;
+  font-size: 1.18rem;
+  color: hsl(215, 51%, 70%);
+  gap: 1.6rem;
+}
+
+.NftCreatorSection img {
+  display: inline-block;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  outline: 1px solid white;
+}
+
+.NftCreatorDesc {
+  display: inline-block;
+  width: 100%;
+  align-self: center;
+}
+
+.NftCreatorDesc span {
+  color: white;
+  display: inline-block;
+}
+
+
+.NftCreatorDesc span:hover {
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
+}
+
+
+@media (min-width: 20em) {
+  .NftCreatorSection {
+    font-size: 1.25rem;
+  }
+}
+@media (min-width: 22em) {
+  .NftCreatorSection {
+    font-size: 1.575rem;
+  }
+}
+
+@media (min-width: 23em) {
+  .NftCreatorSection {
+    font-size: 1.7rem;
+  }
+}

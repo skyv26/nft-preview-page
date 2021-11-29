@@ -1,0 +1,9 @@
+.NftCard {
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(216, 50%, 16%);
+    padding: 8.5%;
+    border-radius: 1.6rem;
+    gap: 1.6rem;
+    box-shadow: 0 20px 15px 1px hsl(216, 52%, 6%);
+}
